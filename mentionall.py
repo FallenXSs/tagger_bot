@@ -40,14 +40,14 @@ rxyzdev_initT = {}
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**🌀GrupTaggerBot**\n **ile grubunuzdakı nerdeyse tüm üyelere etiket atabilirim \nKomutlar için /help yazın**",
+  await event.reply("**🌀LuciTaggerBot**\n **ile grubunuzdakı nerdeyse tüm üyelere etiket atabilirim \nKomutlar için /help yazın**",
                     buttons=(                  
 		                      
-                      [Button.url('Beni Gruba Ekle ➕', f"https://t.me/{bot_username}?startgroup=a")],
-                      [Button.url('Support🛠', f"https://t.me/{support}")],
-                      [Button.url('Sahibim', f"https://t.me/{owner}")],
-		                  [Button.url('Developer👨🏻‍💻', 'https://t.me/SakirBey1')],
-		                  [Button.url('Github Code', 'https://nolur.com')],
+                      [Button.url('Beni Gruba Ekle ➕', f"https://t.me/{LuciTaggerBot}?startgroup=a")],
+                      [Button.url('Support🛠', f"https://t.me/{PrimordialTr}")],
+                      [Button.url('Sahibim', f"https://t.me/{Yakupisyanedior}")],
+		                  [Button.url('Developer👨🏻‍💻', 'https://t.me/Fivist')],
+		                  [Button.url('Hydra Bot', 'https://t.me/HydraingBot')],
                     ),
                     link_preview=False
                    )
@@ -58,11 +58,11 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       
-                      [Button.url('Beni Gruba Ekle➕', f"https://t.me/{bot_username}?startgroup=a")],
-                      [Button.url('Support🛠', f"https://t.me/{support}")],
-                      [Button.url('Sahibim🔖', f"https://t.me/{owner}")],
-		                  [Button.url('Developer🧑‍🔧', 'https://t.me/yigitcanb3y')],
-		                  [Button.url('Github Code', 'https://nolur.com')],
+                      [Button.url('Beni Gruba Ekle➕', f"https://t.me/{LuciTaggerBot}?startgroup=a")],
+                      [Button.url('Support🛠', f"https://t.me/{PrimordialTr}")],
+                      [Button.url('Sahibim🔖', f"https://t.me/{Yakupisyanedior}")],
+		                  [Button.url('Developer🧑‍🔧', 'https://t.me/Fivist')],
+		                  [Button.url('Hydra Bot', 'https://t.me/HydraingBot')],
                     ),
                     link_preview=False
                    )
